@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Risultato::::</p>
+        <p id="ris"></p>
+        <script>
+            const v = [2,43,8,1,2547,24,75,16,7];
+            function selectionSort(v, inizio, fine) {
+                let posMinimo = 0;
+                if(inizio === fine){
+                    return "gragna";
+                }
+                else{
+                    posMinimo = PosizioneMinimo(v, inizio, fine);
+                    scambia(v, inizio, posMinimo);
+                    selectionSort(v, inizio++, fine);
+                }
+            }
+                funcion posizioneMinimo(){
+                    let minimo = v[inizio];
+                    let pos = inizio;
+                    if(inizio === fine){
+                        return inizio;
+                    }
+                    else{
+                        let posMinimoRestante = posizioneMinimo(v, inizio++, fine);
+                        if(v[inizio] < v[posMinimo])
+                    }
+
+                }
+        </script>
+    </body>
+</html>
